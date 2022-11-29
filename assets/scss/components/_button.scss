@@ -1,0 +1,11 @@
+.btn {
+  @apply px-3 py-1 font-semibold rounded text-white transition-all;
+  
+  &-primary {
+    @apply bg-teal-400;
+
+    &:hover {
+      @apply bg-teal-600;
+    }
+  }
+}

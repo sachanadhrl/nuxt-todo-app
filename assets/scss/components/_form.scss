@@ -1,0 +1,10 @@
+.form {
+
+  &-input {
+    @apply bg-transparent text-slate-300 border-0 border-b border-b-teal-400;
+
+    &:focus {
+      @apply ring-0;
+    }
+  }
+}

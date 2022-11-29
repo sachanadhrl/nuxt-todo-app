@@ -1,0 +1,14 @@
+main {
+  @apply w-full h-screen flex justify-around items-start text-slate-100 overflow-y-scroll md:p-10 bg-gradient-to-br from-cyan-800 to-teal-800;
+}
+
+/* For Webkit-based browsers (Chrome, Safari and Opera) */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
