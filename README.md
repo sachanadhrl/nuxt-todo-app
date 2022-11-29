@@ -1,5 +1,8 @@
 # nuxt-todo-app
 
+## Nuxt x Tailwindcss
+Made this using nuxtjs and tailwindcss styles, this program will save your task to your local storage
+
 ## Build Setup
 
 ```bash
